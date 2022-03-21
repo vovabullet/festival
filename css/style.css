@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+a:hover {
+  color: #FFFFFF;
+}
+.h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 66px;
+color: #FFFFFF;
+}
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+}
+header {
+  padding-left: 200px;
+  padding-top: 35px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.logo {
+  padding-right: 80px;
+  weight: 70px;
+  height: 96px;
+}
+.dropdown-menu {
+  border: 1px solid #FFFFFF;
+  border-left: 0;
+  padding: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 900px;
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-item button {
+  margin: auto;
+  border: 0;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+.dropdown-item {
+  display: flex;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.menu {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 6px 24px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: auto 0;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.menu:hover {
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  background-color: #FFFFFF;
+}
+.title1 {
+  overflow: hidden;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/background1.svg');
+  background-size: cover;
+ /* background: radial-gradient(90.97% 181.94% at 9.03% 11.67%, #FF0000 0%, rgba(36, 0, 255, 0.75) 46.15%, rgba(0, 0, 0, 0.630952) 80.52%, rgba(0, 255, 41, 0.5) 100%); */
+}
+.title1 p {
+  opacity: 0.8;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+}
+.images {
+  margin-top: 130px;
+}
+.images img{
+  height: 138px;
+}
+.one img {
+  padding-right: 138px;
+}
+.two img {
+  padding-left: 138px;
+}
+/*tilte two*/
+.title2 h2 {
+  padding-top: 48px;
+}
+.curve {
+  width: 350px;
+  padding-bottom: 80px;
+}
+.pic {
+  max-width: 70px;
+  max-height: 70px;
+  padding-bottom: 15px;
+}
+.title2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.infocol {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.events {
+  padding-top: 82px;
+  padding-bottom: 75px;
+}
+.scrolldiv {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 20px 135px;
+}
+.scrolldiv::-webkit-scrollbar {
+  width: 0;
+}
+.scrollcard {
+  border-radius: 10px;
+  box-shadow: 0px 9px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  text-align: center;
+  max-width: 359px;
+  margin: 0 50px;
+}
+#horizontal-scroller h6, #horizontal-scroller p {
+  padding-left: 30px;
+  padding-right: 30px;
+  white-space: normal;
+}
+.scrollimg {
+  width: 100%;
+  border-radius: 10px 10px 0 0 ;
+}
+#horizontal-scroller2 {
+  overflow: auto;
+  white-space: nowrap;
+  height: 680px;
+  padding-left: 140px;
+}
+#horizontal-scroller2::-webkit-scrollbar {
+  width: 0;
+}
+#horizontal-scroller2 .scrollcard {
+  bottom: 196px;
+  margin-left: 0;
+  margin-right: 30px;
+  width: 270px;
+  height: 350px;
+}
+#horizontal-scroller2 .scrollimg {
+  height: 196px;
+}
+#horizontal-scroller2 p {
+  white-space: normal;
+}
+#horizontal-scroller2 h6 {
+  font-weight:bold;
+  white-space: normal;
+}
+#horizontal-scroller2 span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  white-space: normal;
+}
+.candy {
+  font-size: 20px;
+  line-height: 24px;
+}
+.even {
+  position:relative;
+  top: 231px;
+}
+h6 {
+  font-size: 28px;
+  line-height: 34px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.scrollcard span {
+  font-weight:bold;
+}
+.scrollcard p {
+  margin: 0 auto;
+  max-width: 90%;
+  padding-bottom: 80px;
+  white-space: normal;
+}
+/*title three*/
+.title3 {
+  margin-top: 95px;
+  width: 100vw;
+  color: white;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/background2.svg');
+  background-size: cover;
+}
+.weekend-h {
+  padding-top: 75px;
+  padding-bottom:100px;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 62px;
+}
+.weekendblock {
+  display: flex;
+  margin-bottom: 40px;
+}
+.weekendimg {
+  max-width: 470px;
+  margin-right: 30px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.weekendimg:hover {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.animename {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+}
+.animespan {
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 53px;
+}
+.watchblock1, .watchblock2, .watchblock3, .watchblock4, .watchblock5, .watchblock6 {
+  color: white;
+  background-size: cover;
+  height: 110px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 38px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+.watchblock1:hover, .watchblock2:hover, .watchblock3:hover, .watchblock4:hover, .watchblock5:hover, .watchblock6:hover {
+  margin-left: 15px;
+  box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.25);
+}
+.watchblock1 {
+  background-image: url('../img/watch1.png');
+}
+.watchblock2 {
+  background-image: url('../img/watch2.png');
+}
+.watchblock3 {
+  background-image: url('../img/watch3.png');
+}
+.watchblock4 {
+  background-image: url('../img/watch4.png');
+}
+.watchblock5 {
+  background-image: url('../img/watch5.png');
+}
+.watchblock6 {
+  background-image: url('../img/watch6.png');
+}
+.watchspan {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.timetable {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 9px 56px;
+  background-color: white;
+  margin-bottom: 70px;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+.timetable:hover {
+  text-shadow: 10px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  color: white;
+  background: #B00A29;
+  border: 1px solid #B00A29;
+}
